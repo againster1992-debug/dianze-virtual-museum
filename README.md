@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/otter.png" alt="獭的游乐场 · 典则虚拟展厅" width="320">
+  <img src="assets/logo.png" alt="典 · 典则唐宋书画虚拟展厅" width="132">
 </p>
 
 <h1 align="center">典则 · 唐宋书画虚拟展厅</h1>
@@ -119,8 +119,10 @@ https://againster1992-debug.github.io/dianze-virtual-museum/
 │   ├── app.js          # 展厅、看图、标签、动力图、音乐、下载
 │   ├── style.css       # 版式、展墙、响应式、动效
 │   ├── data.js         # 8 个展厅与 100 件展品数据
-│   ├── otter.png       # 完整海獭 logo
-│   └── otter-face.png  # 圆形头像版 logo
+│   ├── logo.png        # 主 logo：朱红“典”字方印
+│   ├── logo.svg        # 主 logo 矢量版
+│   ├── otter.png       # 吉祥物完整形象
+│   └── otter-face.png  # 吉祥物头像
 └── README.md
 ```
 
@@ -198,19 +200,32 @@ window.MUSEUM_DATA = {
 
 ## Logo
 
-项目 logo 为透明背景的海獭形象，来源于「獭的游乐场」。
+项目主 logo 为朱红“典”字方印，取展览名“典则”的首字。红底米字、方形构图，适合作为头像、站点图标与社交预览。
 
 | 版本 | 文件 | 用途 |
 |---|---|---|
-| 完整形象 | [`assets/otter.png`](assets/otter.png) | 页脚、宣传图、社交预览 |
-| 圆形头像 | [`assets/otter-face.png`](assets/otter-face.png) | 顶栏、头像、站点图标 |
+| PNG（1024×1024） | [`assets/logo.png`](assets/logo.png) | 头像、社交预览、印刷 |
+| SVG（矢量） | [`assets/logo.svg`](assets/logo.svg) | 网页、图标、任意缩放 |
 
 <p>
-  <img src="assets/otter.png" alt="完整海獭 logo" width="300">
+  <img src="assets/logo.png" alt="典" width="160">
+</p>
+
+## 吉祥物
+
+海獭是项目吉祥物，用于页脚与轻松场景，不是主 logo。
+
+| 版本 | 文件 | 用途 |
+|---|---|---|
+| 完整形象 | [`assets/otter.png`](assets/otter.png) | 页脚、宣传图 |
+| 圆形头像 | [`assets/otter-face.png`](assets/otter-face.png) | 顶栏、头像 |
+
+<p>
+  <img src="assets/otter.png" alt="海獭吉祥物" width="300">
 </p>
 
 <p>
-  <img src="assets/otter-face.png" alt="海獭头像 logo" width="96">
+  <img src="assets/otter-face.png" alt="海獭头像" width="96">
 </p>
 
 ## 致谢
